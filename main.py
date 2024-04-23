@@ -1,5 +1,5 @@
 
-print("Thanks to choosing us for your Expenses Recording!!!")
+print("Thanks to choosing us for your Expenses Recording")
 running = True
 while running:
     print("1. Recording expenses")
