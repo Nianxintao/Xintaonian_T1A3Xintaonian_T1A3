@@ -9,6 +9,7 @@ while running:
     print()
     # show all the information and options as below
     print("Thanks for choosing the income and expenses recording app! the options as below: ")
+    # add space line
     print()
     print("1. Recording income & expenses")
     print("2. Editing income & expenses")
