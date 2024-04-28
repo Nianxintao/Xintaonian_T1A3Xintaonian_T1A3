@@ -28,6 +28,7 @@ while running:
     if choice == "1":
         # show which function users has chose
         print("You have chosen Recording income & expenses")
+        print("NOTICE please use '-' before the expenses amount")
         # Error handling -- if users put 'str' for value of amount. Error handling(ValueError) will be triggered
         try:
          # name variable 'category' and assign users input to the variable
@@ -41,7 +42,7 @@ while running:
         #  Error handling active and print the info as below.
         except ValueError:
             print("")
-            print("Please use numbers in amount.")
+            print("Please use numbers only  in amount section.")
 
     # when users input is 2
     elif choice == "2":
@@ -63,7 +64,7 @@ while running:
         except ValueError:
             # give space between lines
             print("")
-            print("Please use numbers in record number or amount section.")
+            print("Please use numbers only in record number or amount section.")
 
     # when users input is 3
     elif choice == "3":
