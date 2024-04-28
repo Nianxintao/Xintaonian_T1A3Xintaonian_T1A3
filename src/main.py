@@ -79,7 +79,7 @@ while running:
             print("Information has been removed")
          #  Error handling active and print the info as below.
         except ValueError:
-            # give space between lines
+            # give space between lines.
             print("")
             print("Please input numbers only.")
 
