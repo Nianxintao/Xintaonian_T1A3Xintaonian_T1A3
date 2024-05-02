@@ -5,6 +5,10 @@
 This is the link to my ***[GitHub Repo](https://github.com/Nianxintao/Xintaonian_T1A3Xintaonian_T1A3/tree/master)***
 
 ---
+### Trello Board
+This is the link to my ***[TrelloBoard](https://trello.com/u/johnnian1/boards)***
+
+---
 
 ## App Usage
 ### Dependencies
@@ -68,4 +72,67 @@ The app will print a success or fail message depending on the input. If the user
 Editing done!!
 
 ---
+
+### Feature 3  Remove income & expenses
+When removing records, the app asks to enter the row number to be deleted.
+Example as below:
+
+![main6.png](doc%2Fmain6.png)
+
+---
+
+### Feature 4  Review income & expenses
+The user is also able to view any templates that have been created in the application.
+The list gets section of category amount, date and row number.
+At the end of the list. App will give users the figures of total income total expenses and total balance.
+Example as below:
+
+![main7.png](doc%2Fmain7.png)
+
+---
+
+### Feature 5   Exit
+If the user choose 5 to exit, the app will no longer be running. Rerun ./run_app.sh
+
+---
+
+## Project Planning
+For finish the project  I did the steps below:
+
+1. Set up a trello board for T1A3
+![Trello Board 1.jpg](doc%2FTrello%20Board%201.jpg)
+![Trello Board 2.jpg](doc%2FTrello%20Board%202.jpg)
+![Trello Board 3.jpg](doc%2FTrello%20Board%203.jpg)
+![Trello Board 4.jpg](doc%2FTrello%20Board%204.jpg)
+![Trello Board 5.jpg](doc%2FTrello%20Board%205.jpg)
+![Trello Board 6.jpg](doc%2FTrello%20Board%206.jpg)
+![Trello Board 7.png](doc%2FTrello%20Board%207.png)
+![Trello Board 8.png](doc%2FTrello%20Board%208.png)
+![Trello Board 9.png](doc%2FTrello%20Board%209.png)
+2. Create the main.py 
+
+3. Create the Functions.py
+4. Write the Recording  feature
+5. Write the Editing feature
+6. Write the Removing feature
+7. Write the Reviewing feature
+8.  Tests
+9. Error Handling 
+
+---
+
+## Code Style Guide
+The code was written referencing the PEP 8 Style Guide for Python using the Black Code Style and formatter as it is PEP8 compliant.
+
+The styles followed include:
+
+* Lower case variables with underscores (example_variable)
+* 79 character line limit
+* 4 Space indentation
+* Blank lines to separate functions
+* Imports separated by lines and grouped
+* Use of double quotes consistently
+
+---
+
 
