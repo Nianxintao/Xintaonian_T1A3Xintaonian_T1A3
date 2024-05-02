@@ -33,6 +33,7 @@ The main page is for users to choose the features of the app
 5. Exit
 
 Please see the img below:
+
 ![main.png](doc%2Fmain.png)
 
 ---
@@ -44,7 +45,9 @@ The app will be greeting the users and inform all users to add '-'in front of th
 ### Feature 1 Recording  income & expenses
 This feature is allowing users to input the amount of income or expenses, and also record
 the type of the input. examples:
+
 ![main2.png](doc%2Fmain2.png)
+
 ![main3.png](doc%2Fmain3.png)
 
 The app will print a success or fail message depending on the input. If the user succeed it will print 
@@ -58,6 +61,7 @@ If you put 'str' in amount section the app will inform you as follows:
 ### Feature 2 Editing  income & expenses
 This feature is allowing users to edit the category or amount of income or expenses, and also record
 the new input. examples:
+
 ![main5.png](doc%2Fmain5.png)
 
 The app will print a success or fail message depending on the input. If the user succeed it will print 
