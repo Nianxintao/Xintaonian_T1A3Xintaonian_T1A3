@@ -1,6 +1,5 @@
 # import all 4 functions from function.py file
 from functions import record_expense, edit_expense, delete_expense, view_expenses
-
 # code loop
 running = True
 # when code looping
