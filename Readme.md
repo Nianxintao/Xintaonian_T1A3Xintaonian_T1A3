@@ -54,12 +54,20 @@ the type of the input. examples:
 
 ![main3.png](doc%2Fmain3.png)
 
+![Func1.png](doc%2FFunc1.png)
+
 The app will print a success or fail message depending on the input. If the user succeed it will print 
 Information has been added successfully！
 
 If you put 'str' in amount section the app will inform you as follows:
 
 ![main4.png](doc%2Fmain4.png)
+
+The input data will be a list of inputs given by the user and will be validate as the first step.
+
+1. Read record from the csv
+2. Create a new record and add to the list
+3. Write the new record to the csv
 
 ---
 ### Feature 2 Editing  income & expenses
@@ -68,9 +76,18 @@ the new input. examples:
 
 ![main5.png](doc%2Fmain5.png)
 
+![Func2.png](doc%2FFunc2.png)
+
 The app will print a success or fail message depending on the input. If the user succeed it will print 
 Editing done!!
 
+The input data will be a list of inputs given by the user and will
+be validate as the first step. The update feature will
+
+1. Read records from the csv
+2. Find the record to update using the row number give by the user
+3. Update the record category and amount
+4. Write the changed editing back to the csv file
 ---
 
 ### Feature 3  Remove income & expenses
@@ -79,6 +96,14 @@ Example as below:
 
 ![main6.png](doc%2Fmain6.png)
 
+![Func3.png](doc%2FFunc3.png)
+
+The input data will be a list of inputs given by the user and will be validate as the first step. 
+
+1. Read records from the csv
+2. Find the record  to delete using the row number give by the users
+3. Remove the record from the list of expenses
+4. Write the other records back to the csv file
 ---
 
 ### Feature 4  Review income & expenses
@@ -88,6 +113,8 @@ At the end of the list. App will give users the figures of total income total ex
 Example as below:
 
 ![main7.png](doc%2Fmain7.png)
+
+![Func4.png](doc%2FFunc4.png)
 
 ---
 
@@ -109,8 +136,8 @@ For finish the project  I did the steps below:
 ![Trello Board 7.png](doc%2FTrello%20Board%207.png)
 ![Trello Board 8.png](doc%2FTrello%20Board%208.png)
 ![Trello Board 9.png](doc%2FTrello%20Board%209.png)
-2. Create the main.py 
-
+![Trello Board 10.png](doc%2FTrello%20Board%2010.png)
+2. Create the main.py
 3. Create the Functions.py
 4. Write the Recording  feature
 5. Write the Editing feature
@@ -121,15 +148,22 @@ For finish the project  I did the steps below:
 
 ---
 
+### Dependencies
+To run this application, you must have Python 3 installed.
+The application also makes use of the following dependencies which are automatically set up upon launch.
+colored==2.2.3
+
+---
+
 ## Code Style Guide
-The code was written referencing the PEP 8 Style Guide for Python using the Black Code Style and formatter as it is PEP8 compliant.
+The code was written referencing the PEP 8 Style Guide for Python using the Black Code Style and 
+formatter as it is PEP8 compliant.
 
 The styles followed include:
 
 * Lower case variables with underscores (example_variable)
-* 79 character line limit
 * 4 Space indentation
-* Blank lines to separate functions
+* 2 Blank lines to separate functions
 * Imports separated by lines and grouped
 * Use of double quotes consistently
 
